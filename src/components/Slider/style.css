@@ -1,0 +1,24 @@
+.swiper-pagination {
+    position: unset;
+    text-align: center;
+    transition: .3s opacity;
+    transform: translate3d(0,0,0);
+    z-index: 10;
+}
+
+.swiper-pagination-bullet{
+    border: black;
+    border-style: solid;
+    width:1vw ;
+    height: 2vh;
+    background-color: #FFCB05;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    color: black;
+}
+
+.swiper-slide {
+    margin-left: 1em;
+    margin-right: 2em;
+}

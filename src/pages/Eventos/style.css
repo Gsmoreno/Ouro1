@@ -1,0 +1,44 @@
+.mae-E{
+    background-color: black;
+}
+
+.testeF > h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    font-size: 4rem;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.texto > p{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    width: 67.5%;
+}
+
+.texto{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2em;
+    font-size: 1.1rem;
+}
+
+.testeF{
+    background: url("../../assets/imgs/FundoEvento.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 344vh;
+}
+
+#bus{
+    margin-top: 90%;
+}
+
+#amarelo{
+    margin-left: 0.1em;
+    font-size: 4rem;
+    color: #FFCB05;
+}

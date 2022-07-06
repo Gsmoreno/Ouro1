@@ -1,0 +1,859 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    margin: 0;
+}
+
+h1, h2, h3, p {
+    background-color: transparent;
+}
+
+img {
+    background-color: transparent;
+}
+
+.bola {
+    margin-top: 3em;
+}
+
+#bola {
+    width: 70%;
+}
+
+.animacao {
+    overflow-x: hidden;
+}
+
+.bebidas>h2 {
+    font-family: "nimbus-roman", sans-serif;
+    font-weight: 700;
+    margin: 0;
+    font-size: 1.56em;
+}
+
+.bebidas {
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+    margin-left: 5em;
+    position: absolute;
+    animation-duration: 3s;
+    animation-delay: 1.2s;
+    margin-top: 7em;
+
+}
+
+#sabor {
+    color: red;
+    font-family: "nimbus-roman", sans-serif;
+    font-weight: 800;
+}
+
+#garrafa {
+    height: 100.6%;
+    background-color: transparent;
+    position: absolute;
+    animation-delay: 1s;
+}
+
+#veia{
+    cursor: pointer;
+}
+#ouro{
+    cursor: pointer;
+}
+#edicao{
+    cursor: pointer;
+}
+#vida{
+    cursor: pointer;
+}
+#prata{
+    cursor: pointer;
+}
+
+.anoOm{
+    margin-left: 0.8em;
+}
+
+.bebVb{
+    margin-left: 3.4em !important;
+}
+
+.meses{
+    font-size: 3em !important;
+}
+
+.des{
+    margin-left: 3.2em !important;
+}
+
+.inox{
+    margin-left: 4em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul>li>img {
+    width: 15%;
+
+
+}
+
+#tipos>li {
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #8D4200;
+    font-weight: bold;
+}
+
+.infos {
+    position: absolute;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 70%;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.infos>h3 {
+    font-size: 1em;
+}
+
+#bold {
+    font-weight: 800;
+}
+
+#nome-garrafa {
+    font-size: 1.6em;
+    font-weight: 600;
+    margin-left: 0.7em
+}
+
+.anos {
+    font-size: 3.8em;
+    font-weight: 800;
+
+}
+
+.dosagem {
+    margin-left: 1.2em;
+}
+
+.ml {
+    font-size: 3em;
+}
+
+#medida {
+    font-weight: 400;
+    font-size: 0.8em;
+}
+
+#alcool {
+    font-size: 0.5em;
+    font-weight: 600;
+}
+
+.porcentagem {
+    margin-left: 2.8em;
+}
+
+.sobreProduto {
+    width: 32%;
+    height: 50%;
+    background-color: #FFFAE9;
+    position: absolute;
+    border-radius: 10%;
+    box-shadow: 4px 3px 14px 0px gray;
+    margin-top: 12em;
+    margin-left: 45em;
+    display: flex;
+}
+
+.sobreProduto>h2 {
+    margin: 1em;
+    font-family: "nimbus-roman", sans-serif;
+    color: red;
+    font-weight: 800;
+    font-size: 1.7em;
+}
+
+.sobreProduto>p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    width: 81%;
+    align-self: center;
+}
+
+
+
+.prod>h1 {
+    font-family: "nimbus-roman", sans-serif;
+    font-weight: 900;
+    margin-top: 3.2em;
+}
+
+
+
+.passo1 {
+    align-items: baseline;
+    margin-left: 7em;
+    position: sticky;
+}
+
+.titulo>h1 {
+    font-family: "nimbus-roman", sans-serif;
+    color: #FFCB05;
+    font-size: 7em;
+    font-weight: 200;
+}
+
+.titulo>h3 {
+    font-family: "nimbus-roman", sans-serif;
+    font-size: 2.8em;
+    font-weight: 600;
+}
+
+.titulo {
+    align-items: baseline;
+    margin-left: 5em;
+}
+
+#exp-cana {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    width: 56%;
+    margin-left: 1em;
+    margin-left: 6em;
+}
+
+#CanaD {
+    width: 30%;
+    position: absolute;
+    rotate: 60px;
+    transform: rotate(-125deg);
+    margin-left: 86em
+}
+
+#CanaE {
+    position: absolute;
+    width: 15%;
+    margin-left: 8em;
+    margin-top: 18em;
+}
+
+#CanaPrinci {
+    height: 120%;
+}
+
+.titulo2>h1 {
+    font-family: "nimbus-roman", sans-serif;
+    color: red;
+    font-size: 7em;
+    font-weight: revert;
+}
+
+.titulo2>h3 {
+    font-family: "nimbus-roman", sans-serif;
+    font-size: 2.8em;
+    font-weight: 600;
+    width: 55%;
+    margin-left: 0.3em;
+}
+
+.titulo2 {
+    align-items: center;
+    width: 40%;
+
+}
+
+.passo2 {
+    position: sticky;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    align-items: end;
+
+}
+
+
+#exp-moagem {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    width: 56%;
+    justify-content: center;
+}
+
+#exp-moagem>p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    width: 40%;
+    justify-content: center;
+}
+
+#tittle2 {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: end;
+
+}
+
+.imgMoagem>img {
+    margin-left: 10em;
+}
+
+#engrenagem {
+    width: 40%;
+    margin-left: 8em;
+}
+
+#carro {
+    margin-top: 4em;
+    height: 7%;
+}
+
+#moen {
+    text-align: end;
+}
+
+#moen>p {
+    margin-bottom: 0.8em;
+}
+
+.teste1:target {
+    scroll-margin-top: 1.8em;
+
+}
+
+.teste1 {
+    scroll-behavior: smooth;
+}
+
+.titulo2 {
+
+    animation-delay: 0.1s;
+}
+
+#tittle3 {
+    align-items: center;
+    display: flex;
+    width: 51%;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.titulo3>h1 {
+    font-family: "nimbus-roman", sans-serif;
+    color: #FFCB05;
+    font-size: 7em;
+    font-weight: bolder;
+}
+
+.titulo3>h3 {
+    font-family: "nimbus-roman", sans-serif;
+    font-size: 2.8em;
+    font-weight: 800;
+    width: 55%;
+    margin-left: 0.3em;
+}
+
+.titulo3 {
+
+    align-items: baseline;
+}
+
+
+#exp-moagem3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    width: 50%;
+    margin-left: 15em;
+}
+
+#exp-moagem3>p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    width: 57%;
+
+}
+
+#caldeirao {
+    margin-left: 36em;
+    margin-bottom: -7em;
+    position: absolute;
+}
+
+#engrenagem2 {
+    width: 10%;
+    margin-left: 31em;
+    position: absolute;
+    margin-top: 8em;
+}
+
+#tubo {
+    position: absolute;
+    margin-left: 58em;
+    margin-top: 1em;
+}
+
+#caldeiras {
+    position: absolute;
+    margin-left: 53em;
+    margin-top: 7em;
+}
+
+#alam {
+    width: 81.3%;
+    position: absolute;
+}
+
+.quatro {
+    margin-top: 12%;
+}
+
+
+
+.titulo4>h1 {
+    font-family: "nimbus-roman", sans-serif;
+    color: red;
+    font-size: 7em;
+    font-weight: bolder;
+}
+
+.titulo4>h3 {
+    font-family: "nimbus-roman", sans-serif;
+    font-size: 2.8em;
+    font-weight: 800;
+    width: 55%;
+    margin-left: 0.3em;
+}
+
+.titulo4 {
+
+    align-items: baseline;
+}
+
+#exp-moagem4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    width: 88%;
+
+}
+
+#exp-moagem4>p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    width: 47%;
+
+}
+
+.passo4 {
+    position: absolute;
+}
+
+.margem {
+    margin-top: 6em;
+    margin-left: 31em;
+}
+
+#garrafaB {
+    height: 90vh;
+    transform: rotate(-11deg);
+    position: absolute;
+    margin-left: -13em;
+}
+
+#cobre {
+    height: 80vh;
+    margin-right: 5em;
+    transform: rotate(3deg);
+}
+
+.imagens {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cinco {
+    margin-top: 40em;
+    margin-bottom: 10em;
+}
+
+.teste > img{
+    height: 59vh;
+    margin-top: 1em;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#nomee{
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-top: 2em;
+}
+
+.divImg {
+    position: absolute;
+
+}
+
+#filtro {
+    margin-top: 10em;
+}
+
+.passo5 {
+    display: flex;
+    justify-content: revert;
+    flex-direction: column;
+    align-items: start;
+    align-self: flex-end;
+    margin-left: 7em;
+    margin-bottom: 6em;
+}
+
+
+#exp-moagem5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    width: 30%;
+
+}
+
+#exp-moagem5>P {
+    width: 75%;
+
+}
+
+.titulo5>h1 {
+    font-family: "nimbus-roman", sans-serif;
+    color: #FFCB05;
+    font-size: 7em;
+    font-weight: revert;
+}
+
+.titulo5>h3 {
+    font-family: "nimbus-roman", sans-serif;
+    font-size: 2.8em;
+    font-weight: 600;
+    width: 55%;
+    margin-left: 0.3em;
+}
+
+.titulo5 {
+    align-items: baseline;
+    width: 40%;
+    animation-duration: 2s;
+}
+
+.titulo2{
+    animation-duration: 3s;
+
+}
+
+.animate__animated{
+    animation-duration: 2.3s !important;
+}
+
+#copo {
+    height: 34vh;
+    margin-left: 13em;
+    position: absolute;
+    animation-duration: 2s;
+}
+
+#barril {
+    position: absolute;
+    margin-top: 19.76em;
+    margin-left: 45.8em;
+
+}
+
+#filtro{
+    animation-duration: 2s;
+}
+
+.titulo6>h1 {
+    font-family: "nimbus-roman", sans-serif;
+    color: red;
+    font-size: 7em;
+    font-weight: 800;
+}
+
+.titulo6>h3 {
+    font-family: "nimbus-roman", sans-serif;
+    font-size: 2.8em;
+    font-weight: 900;
+}
+
+.titulo6 {
+    align-items: baseline;
+
+}
+
+#exp-cana6>p {
+    width: 37%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+
+}
+
+.texto6 {
+    margin-left: 7em;
+    margin-top: 12em;
+}
+
+#gvb {
+    height: 100vh;
+    position: absolute;
+    transform: rotate(-11deg);
+    margin-left: -19em;
+}
+
+#estoqueR {
+    margin-left: 6em;
+}
+
+.oito {
+    margin-top: 5em;
+}
+
+#garrafas {
+    position: absolute;
+    margin-left: 30em;
+}
+
+.titulo7>h1 {
+    font-family: "nimbus-roman", sans-serif;
+    color: #FFCB05;
+    font-size: 7em;
+    font-weight: 800;
+}
+
+.titulo7>h3 {
+    font-family: "nimbus-roman", sans-serif;
+    font-size: 2.8em;
+    font-weight: 900;
+}
+
+.titulo7 {
+    align-items: baseline;
+
+}
+
+.sete {
+    margin-left: 10em;
+}
+
+#exp-cana7>p {
+    width: 40%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+
+}
+
+.nove {
+    margin-top: 10em;
+}
+
+.carro {
+    margin-top: 26em;
+}
+
+.carro>h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    margin-bottom: 2em;
+}
+
+.receitas>h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    margin-top: 4em;
+}
+
+.exemplos>img {
+    height: 55vh;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.exemplos {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5em;
+}
+
+#nomes {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+.botao {
+    display: flex;
+    justify-content: center;
+}
+
+.botao>button {
+    margin-top: 3em;
+    background-color: #FFCB05;
+    width: 20vw;
+    height: 6vh;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+.parallax {
+    background-image: url(../../assets/imgs/parallax.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-top: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parallax>img {
+    height: 50vh;
+}
+
+:root {
+    --text-color: #ffffff;
+    --shadow-color: #e6c33b;
+    --btn-color: #FFCB05;
+    --bg-color: #141218;
+  }
+
+.area-botao> a > button {
+    position: relative;
+    padding: 10px 20px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-family: "Source Code Pro";
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: var(--text-color);
+    --content: 'Comprar!';
+    background-color: var(--btn-color);
+    box-shadow: var(--shadow-color) 2px 2px 22px;
+    border-radius: 4px;
+    width: 12vw;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.area-botao> a > button:focus {
+    outline-color: transparent;
+    box-shadow: var(--btn-color) 2px 2px 22px;
+}
+
+.right::after, .area-botao> a >button::after {
+    content: var(--content);
+    display: block;
+    position: absolute;
+    white-space: nowrap;
+    padding: 40px 40px;
+    pointer-events: none;
+}
+
+.area-botao> a > button::after {
+    font-weight: 200;
+    top: -30px;
+    left: -20px;
+}
+
+.right, .left {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+
+.right {
+    left: 66%;
+}
+
+.left {
+    right: 66%;
+}
+
+.right::after {
+    top: -30px;
+    left: calc(-66% - 20px);
+
+    background-color: var(--bg-color);
+    color: transparent;
+    transition: transform .4s ease-out;
+    transform: translate(0, -90%) rotate(0deg)
+}
+
+.area-botao> a > button:hover .right::after {
+    transform: translate(0, -47%) rotate(0deg)
+}
+
+.area-botao> a > button .right:hover::after {
+    transform: translate(0, -50%) rotate(-7deg)
+}
+
+.area-botao> a > button .left:hover~.right::after {
+    transform: translate(0, -50%) rotate(7deg)
+}
+
+/* bubbles */
+.area-botao> a > button::before {
+    content: '';
+    pointer-events: none;
+    opacity: .6;
+    background:
+        radial-gradient(circle at 20% 35%, transparent 0, transparent 2px, var(--text-color) 3px, var(--text-color) 4px, transparent 4px),
+        radial-gradient(circle at 75% 44%, transparent 0, transparent 2px, var(--text-color) 3px, var(--text-color) 4px, transparent 4px),
+        radial-gradient(circle at 46% 52%, transparent 0, transparent 4px, var(--text-color) 5px, var(--text-color) 6px, transparent 6px);
+
+    width: 100%;
+    height: 300%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    animation: bubbles 5s linear infinite both;
+}
+
+@keyframes bubbles {
+    from {
+        transform: translate();
+    }
+
+    to {
+        transform: translate(0, -66.666%);
+    }
+}
+
+.area-botao> a > button{
+    margin-top: 1em;
+}
+
+.setee{
+    margin-top: 6em;
+}

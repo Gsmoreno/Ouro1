@@ -1,0 +1,44 @@
+footer{
+    background-color: #F0F0F0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+#Logo-footer{
+    height: 15vh;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+}
+
+#numero{
+    font-weight: 900;
+}
+
+#email{
+    font-weight: 200;
+
+}
+
+.esquerdaF{
+    margin-top: 3em;
+}
+
+.esquerdaF > p{
+    margin-top: 0.7em;
+}
+
+.direitaF{
+    text-align: end;
+}
+
+.direitaF > p{
+    text-align: end;
+    color: gray;
+    font-weight: 300;
+}

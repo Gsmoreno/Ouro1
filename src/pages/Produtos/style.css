@@ -1,0 +1,58 @@
+.mae-P{
+    background: transparent radial-gradient(closest-side at 50% 50%, #F8CF0D 0%, #FFBE06 44%, #FFAC07 100%) 0% 0% no-repeat padding-box;
+    display: flex;
+    justify-content: center;
+}
+
+.mae-P > img{
+    height: 90vh;
+}
+
+.Velha{
+    background: url('../../assets/imgs/PVelha.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    position: sticky;
+}
+
+.Prata{
+    background: url('../../assets/imgs/PPrata.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    position: sticky;
+
+}
+
+.VidaBoa{
+    background: url('../../assets/imgs/PVidaBoa.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    position: sticky;
+
+}
+
+.OuroMineiro{
+    background: url('../../assets/imgs/POuroMineiro.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    position: sticky;
+
+}
+
+.EdicaoEspecial{
+    background: url('../../assets/imgs/PEdicaoEspecial.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    position: sticky;
+
+}
